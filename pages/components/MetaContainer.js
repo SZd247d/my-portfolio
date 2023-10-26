@@ -9,8 +9,8 @@ export default function MetaContainer({ children, ...customMeta }) {
 
   const meta = {
     title: "FullStack Developer",
-    description: `I've been working in IT for ~12 years straight. Get in touch with me to know more.`,
-    image: "/public/avatar.png",
+    description: ` Looking forward to solve your problems and  bring you more clarity to your online goals`,
+    image: "/public/bruceMarsUnsplash.jpg",
     type: "website",
     date: new Date().toDateString(),
     ...customMeta,
@@ -21,16 +21,16 @@ export default function MetaContainer({ children, ...customMeta }) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta
+        {/* <meta
           property="og:url"
           content={`https://www.paulknulst.de${router.asPath}`}
-        />
-        <link
+        /> */}
+        {/* <link
           rel="canonical"
           href={`https://www.paulknulst.de${router.asPath}`}
-        />
+        /> */}
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Paul Knulst" />
+        <meta property="og:site_name" content="DevSpectrum" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
