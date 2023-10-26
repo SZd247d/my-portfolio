@@ -47,10 +47,10 @@ const Sponsor = () => {
           <h1 className="text-5xl font-bold text-gray-900 lg:text-5xl dark:text-gray-400">
             Loving to help ?
           </h1>
-          <p className="mt-16 font-bold text-3xl  text-gray-800 dark:text-gray-600">
+          <p className="mt-16 font-bold text-3xl  text-gray-800 dark:text-gray-400">
             Feel free to support me with a donation!
           </p>
-          <p className="mt-12  text-3xl text-gray-800 dark:text-gray-600">
+          <p className="mt-12  text-3xl text-gray-800 dark:text-gray-400">
             Thanks in advance. Each donation of yours means a lot, however
             little it might be! it will really help
           </p>
