@@ -35,7 +35,7 @@ const Main = () => {
             </h2>
           </div>
         </div>
-        <div className="flex-shrink-0 flex justify-center items-center mt-5 lg:mt-12 pb-32 lg:px-4 mb-10">
+        <div className="flex-shrink-0 flex justify-center items-center mt-5 lg:mt-12 lg:px-4 mb-10">
           <Image
             src="/bruceMarsUnsplash.jpg"
             alt="Public Avatar"
