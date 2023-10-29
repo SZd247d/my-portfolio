@@ -1,4 +1,4 @@
-import Sponsore from "./components/Sponsore";
+import Sponsore from "./Sponsore";
 
 const SupportMe = () => {
   return (
