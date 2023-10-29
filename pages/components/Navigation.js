@@ -22,14 +22,14 @@ const Navigation = () => {
           </Link>
         </div>
         <div className="items-end flex space-x-5">
-          {/* {!isDonatePage && (
+          {!isDonatePage && (
             <Link
               href="/supportme"
               className="font-medium px-8 py-3 mr-4 rounded tracking-wider bg-blue-700 transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white"
             >
               Donate
             </Link>
-          )} */}
+          )}
 
           <ThemeSwitch />
         </div>
