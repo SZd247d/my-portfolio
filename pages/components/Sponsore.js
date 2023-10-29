@@ -56,7 +56,8 @@
 //           </p>
 //         </div>
 //         <div className="lg:space-x-5 lg:flex lg:flex-row w-96 p-5 item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
-          {/* <div className="flex-col max-w-lg items-center z-10 space-y-5 rounded-md bg-gray-500 dark:bg-slate-900 p-10">
+{
+  /* <div className="flex-col max-w-lg items-center z-10 space-y-5 rounded-md bg-gray-500 dark:bg-slate-900 p-10">
             <div className="group flex w-full items-center rounded-lg bg-gray-100/30 text-white focus:outline-none">
               <p className="rounded-l-lg bg-gray-400 px-4 py-3 text-lg text-black">
                 USD
@@ -116,12 +117,13 @@
                 />
               </PayPalScriptProvider>
             </div>
-          </div> */}
-          <StripeBuyButton />
-        </div>
-      </div>
-    </div>
-  );
-};
+          </div> */
+}
+//           <StripeBuyButton />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-export default Sponsor;
+// export default Sponsor;
